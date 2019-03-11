@@ -1,0 +1,212 @@
+%YAML 1.1
+---
+actions:
+- utter_greetings.bye
+- utter_greetings.goodevening
+- utter_greetings.goodmorning
+- utter_greetings.goodnight
+- utter_greetings.hello
+- utter_greetings.how_are_you
+- utter_greetings.nice_to_meet_you
+- utter_greetings.nice_to_see_you
+- utter_greetings.nice_to_talk_to_you
+- utter_greetings.whatsup
+- utter_confirmation.yes
+- utter_confirmation.cancel
+- utter_confirmation.no
+- utter_config_search
+- utter_order_status
+- utter_recent_order
+- utter_show_product
+- utter_ask_system
+- utter_ask_processor
+- utter_ask_ram
+- utter_ask_storage
+- utter_ask_display
+- utter_ask_os
+- action_search_product
+- action_search_product2
+- action_further_search_product
+- action_suggest
+- action_give_link
+- utter_no_matches
+- utter_give_link
+- utter_wrong_input
+config:
+  store_entities_as_slots: true
+entities:
+- system
+- ram
+- processor
+- storage
+- display
+- os
+forms: []
+intents:
+- greetings.bye:
+    use_entities: true
+- greetings.goodevening:
+    use_entities: true
+- greetings.goodmorning:
+    use_entities: true
+- greetings.goodnight:
+    use_entities: true
+- greetings.hello:
+    use_entities: true
+- greetings.how_are_you:
+    use_entities: true
+- greetings.nice_to_meet_you:
+    use_entities: true
+- greetings.nice_to_see_you:
+    use_entities: true
+- greetings.nice_to_talk_to_you:
+    use_entities: true
+- greetings.whatsup:
+    use_entities: true
+- confirmation.yes:
+    use_entities: true
+- confirmation.cancel:
+    use_entities: true
+- confirmation.no:
+    use_entities: true
+- inform_buy:
+    use_entities: true
+- config_search:
+    use_entities: true
+- order_status:
+    use_entities: true
+- recent_order:
+    use_entities: true
+- need_another:
+    use_entities: true
+slots:
+  display:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  matches:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  os:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  processor:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  prod_id:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  ram:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  storage:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  system:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_display:
+  - text: Screen Size?
+  utter_ask_os:
+  - text: Which Operating System do you need?
+  utter_ask_processor:
+  - text: What processor do you need?
+  utter_ask_ram:
+  - text: How much memory do you need?
+  utter_ask_storage:
+  - text: How much Disk Space do you need?
+  utter_ask_system:
+  - text: What system do you want?
+  - text: Laptop, desktop or workstation?
+  utter_config_search:
+  - text: Sure, I'll get your config.
+  - text: These are your standard configurations.
+  - text: Here is your standard configuration.
+  utter_confirmation.cancel:
+  - text: That's forgotten. What next?
+  - text: Okay, cancelled. What next?
+  - text: Cancelled! What would you like to do next?
+  utter_confirmation.no:
+  - text: Okay.
+  - text: Understood.
+  - text: I see.
+  - text: I understand.
+  - text: Okay then.
+  utter_confirmation.yes:
+  - text: Great!
+  - text: All right!
+  - text: Good!
+  utter_give_link:
+  - link: https://www.dell.com/premier/configure/us/en/rc1387181/?productId={prod_id}#
+    text: https://www.dell.com/premier/configure/us/en/rc1387181/?productId={prod_id}#
+  utter_greetings.bye:
+  - text: See you soon!
+  - text: Bye-bye!
+  - text: Till next time!
+  - text: Bye.
+  utter_greetings.goodevening:
+  - text: How is your day going?
+  - text: How's the day treating you so far?
+  - text: How's your day been?
+  utter_greetings.goodmorning:
+  - text: How are you this morning?
+  - text: How's the morning treating you so far?
+  - text: Good morning! How are you today?
+  utter_greetings.goodnight:
+  - text: Sleep tight!
+  - text: Have a good one!
+  - text: Talk to you soon!
+  utter_greetings.hello:
+  - text: Hi there, friend!
+  - text: Hi!
+  - text: Hey!
+  - text: Hey there!
+  - text: Good day!
+  - text: Hello!
+  - text: Greetings!
+  utter_greetings.how_are_you:
+  - text: Doing great, thanks!
+  - text: I'm doing very well. Thanks!
+  - text: Feeling wonderful!
+  - text: Wonderful! Thanks for asking.
+  utter_greetings.nice_to_meet_you:
+  - text: It's nice meeting you, too.
+  - text: Likewise. I'm looking forward to helping you out.
+  - text: Nice meeting you, as well.
+  - text: The pleasure is mine.
+  utter_greetings.nice_to_see_you:
+  - text: Likewise!
+  - text: So glad we meet again!
+  - text: Same here. I was starting to miss you.
+  utter_greetings.nice_to_talk_to_you:
+  - text: It sure was. We can chat again anytime.
+  - text: I enjoy talking to you, too.
+  - text: You know I'm here to talk anytime.
+  utter_greetings.whatsup:
+  - text: Not a whole lot. What's going on with you?
+  - text: Not much. What's new with you?
+  - text: You know, just here, waiting to help someone.
+  utter_no_matches:
+  - text: Sorry, I couldn't find your product
+  utter_order_status:
+  - text: This is your status for the order.
+  - text: Sure, I'll show your recent order status.
+  - text: Order Status
+  - text: You can track your order status here.
+  utter_recent_order:
+  - text: This is your order history.
+  - text: These are your order history.
+  - text: Your recent order history.
+  - text: Your recent orders.
+  utter_show_product:
+  - text: What do you want to buy?
+  utter_wrong_input:
+  - text: Please give correct input!

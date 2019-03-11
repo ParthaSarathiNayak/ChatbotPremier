@@ -1,0 +1,194 @@
+slots:
+  system:
+    type: text
+  ram:
+    type: text
+  processor:
+    type: text
+  storage:
+    type: text
+  display:
+    type: text
+  os:
+    type: text
+  matches:
+    type: unfeaturized
+  prod_id:
+    type: unfeaturized
+
+entities:
+- system
+- ram
+- processor
+- storage
+- display
+- os
+
+intents:
+  - greetings.bye
+  - greetings.goodevening
+  - greetings.goodmorning
+  - greetings.goodnight
+  - greetings.hello
+  - greetings.how_are_you
+  - greetings.nice_to_meet_you
+  - greetings.nice_to_see_you
+  - greetings.nice_to_talk_to_you
+  - greetings.whatsup
+  - confirmation.yes
+  - confirmation.cancel
+  - confirmation.no
+  - inform_buy
+  - config_search
+  - order_status
+  - recent_order
+  - need_another
+
+actions:
+  - utter_greetings.bye
+  - utter_greetings.goodevening
+  - utter_greetings.goodmorning
+  - utter_greetings.goodnight
+  - utter_greetings.hello
+  - utter_greetings.how_are_you
+  - utter_greetings.nice_to_meet_you
+  - utter_greetings.nice_to_see_you
+  - utter_greetings.nice_to_talk_to_you
+  - utter_greetings.whatsup
+  - utter_confirmation.yes
+  - utter_confirmation.cancel
+  - utter_confirmation.no
+  - utter_config_search
+  - utter_order_status
+  - utter_recent_order
+  - utter_show_product
+  - utter_ask_system
+  - utter_ask_processor
+  - utter_ask_ram
+  - utter_ask_storage
+  - utter_ask_display
+  - utter_ask_os
+  - action_search_product
+  - action_search_product2
+  - action_further_search_product
+  - action_suggest
+  - action_give_link
+  - utter_no_matches
+  - utter_give_link
+  - utter_wrong_input
+
+templates:
+    utter_greetings.bye:
+        - "See you soon!"
+        - "Bye-bye!"
+        - "Till next time!"
+        - "Bye."
+
+    utter_greetings.goodevening:
+        - "How is your day going?"
+        - "How's the day treating you so far?"
+        - "How's your day been?"
+
+    utter_greetings.goodmorning:
+        - "How are you this morning?"
+        - "How's the morning treating you so far?"
+        - "Good morning! How are you today?"
+
+    utter_greetings.goodnight:
+        - "Sleep tight!"
+        - "Have a good one!"
+        - "Talk to you soon!"
+        
+    utter_greetings.hello:
+        - "Hi there, friend!"
+        - "Hi!"
+        - "Hey!"
+        - "Hey there!"
+        - "Good day!"
+        - "Hello!"
+        - "Greetings!"
+
+    utter_greetings.how_are_you:
+        - "Doing great, thanks!"
+        - "I'm doing very well. Thanks!"
+        - "Feeling wonderful!"
+        - "Wonderful! Thanks for asking."
+
+    utter_greetings.nice_to_meet_you:
+        - "It's nice meeting you, too."
+        - "Likewise. I'm looking forward to helping you out."
+        - "Nice meeting you, as well."
+        - "The pleasure is mine."
+
+    utter_greetings.nice_to_see_you:
+        - "Likewise!"
+        - "So glad we meet again!"
+        - "Same here. I was starting to miss you."
+
+    utter_greetings.nice_to_talk_to_you:
+        - "It sure was. We can chat again anytime."
+        - "I enjoy talking to you, too."
+        - "You know I'm here to talk anytime."
+
+    utter_greetings.whatsup:
+        - "Not a whole lot. What's going on with you?"
+        - "Not much. What's new with you?"
+        - "You know, just here, waiting to help someone."
+
+    utter_confirmation.yes:
+        - "Great!"
+        - "All right!"
+        - "Good!"
+        
+    utter_confirmation.cancel:
+        - "That's forgotten. What next?"
+        - "Okay, cancelled. What next?"
+        - "Cancelled! What would you like to do next?"
+        
+    utter_confirmation.no:
+        - "Okay."
+        - "Understood."
+        - "I see."
+        - "I understand."
+        - "Okay then."
+    utter_config_search:
+        - "Sure, I'll get your config."
+        - "These are your standard configurations."
+        - "Here is your standard configuration."
+
+    utter_order_status:
+        - "This is your status for the order."
+        - "Sure, I'll show your recent order status."
+        - "Order Status"
+        - "You can track your order status here."
+
+    utter_recent_order:
+        - "This is your order history."
+        - "These are your order history."
+        - "Your recent order history."
+        - "Your recent orders."
+
+    utter_show_product:
+        - "What do you want to buy?"
+
+    utter_ask_system:
+        - "What system do you want?"
+        - "Laptop, desktop or workstation?"
+    utter_ask_processor:
+        - "What processor do you need?"
+    utter_ask_ram:
+        - "How much memory do you need?"
+    utter_ask_storage:
+        - "How much Disk Space do you need?"
+    utter_ask_display:
+        - "Screen Size?"
+    utter_ask_os:
+        - "Which Operating System do you need?"
+    utter_no_matches:
+        - "Sorry, I couldn't find your product"
+    utter_wrong_input:
+        - "Please give correct input!"
+    utter_give_link:
+        - text : "https://www.dell.com/premier/configure/us/en/rc1387181/?productId={prod_id}#"
+          link : "https://www.dell.com/premier/configure/us/en/rc1387181/?productId={prod_id}#"
+

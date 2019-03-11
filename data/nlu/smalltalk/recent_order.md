@@ -1,0 +1,17 @@
+## intent:recent_order
+- I want to see my recent orders.
+- I want to check my recent orders.
+- I want to see the orders I made recently.
+- I want to see my previous orders.
+- I want to see my last few orders.
+- Show me my last few orders.
+- Show me my recent orders.
+- Show my recently made orders.
+- See recent orders.
+- I want to look into my recent orders.
+- What are my recent orders.
+- What is my order history?
+- Show me my order history.
+- Wants to check my order history."
+- recent orders.
+- order history.

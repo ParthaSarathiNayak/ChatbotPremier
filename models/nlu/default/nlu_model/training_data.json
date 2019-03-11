@@ -1,0 +1,2197 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "config_search",
+        "text": "I want to see some standar configurations."
+      },
+      {
+        "intent": "config_search",
+        "text": "Show me standard configuration."
+      },
+      {
+        "intent": "config_search",
+        "text": "Can you give me standard configuration of product xyz?"
+      },
+      {
+        "intent": "config_search",
+        "text": "Can you give me standard configuration of xyz product?"
+      },
+      {
+        "intent": "config_search",
+        "text": "Want standard configurations."
+      },
+      {
+        "intent": "config_search",
+        "text": "What are my standard configurations available."
+      },
+      {
+        "intent": "config_search",
+        "text": "Is there any standard configuration with product name as abc?"
+      },
+      {
+        "intent": "config_search",
+        "text": "Can I see my standard configurations?"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "nevermind forget about it"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "nothing just forget it"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "no just cancel"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "sorry cancel"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "disregard"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "no cancel cancel"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "forget"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "cancel everything"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "cancel that one"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "I want to cancel"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "cancel it"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "cancelled"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "cancel it now"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "don't want cancel"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "cancel soon"
+      },
+      {
+        "intent": "confirmation.cancel",
+        "text": "shall stand cancelled"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "don't"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "don't want"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "need not"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "don't come"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "never help"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "never"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "not needed"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "of course not"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "never"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "not at this time"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "not exactly"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "absolutely no"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "no forget"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "do not"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "no thanks"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "no don't want"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "sorry no"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "don't want your help"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "I don't you help"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "I don't want your assistance"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "get out goodbye"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "I do not want your help"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "I don't need your help"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "I don't want your help"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "I am not okay with your help"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "don't want"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "do not"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "I don't need anything from you"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "okay keep it in mind"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "nope i dont need your help"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "Don't show off"
+      },
+      {
+        "intent": "confirmation.no",
+        "text": "nope"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "yeah exactly"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "okay that's fine"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "that is ok"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "okey"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "ya"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "ok yes"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "yes it is"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "yep"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "yew"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "yeah"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "yeah fine"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "yea fine"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "yep okay"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "fine okay"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "yup"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "YEAH"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "okay buddy"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "oh okay"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "yeah sure"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "okay cool"
+      },
+      {
+        "intent": "confirmation.yes",
+        "text": "coool"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "okay see you later"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "hope to see you later"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "bye for now"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "till next time"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "I must go"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "see you"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "see you soon"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "bye-bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "bye bye good night"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "good bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "bye bye see you"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "bye bye see you soon"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "bye bye take care"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "I said bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "never mind bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "now bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "that's all goodbye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "that's it goodbye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "leave me alone"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "go to bed"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "goodbye for now"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "talk to you later"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "you can go now"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "get lost"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "goodbye see you later"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "alright bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "see ya"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "thanks bye bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "okay bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "okay thank you bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "see you tomorrow"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "ok bye"
+      },
+      {
+        "intent": "greetings.bye",
+        "text": "c u"
+      },
+      {
+        "intent": "greetings.goodevening",
+        "text": "good evening"
+      },
+      {
+        "intent": "greetings.goodevening",
+        "text": "good evening to you"
+      },
+      {
+        "intent": "greetings.goodevening",
+        "text": "hey good evening"
+      },
+      {
+        "intent": "greetings.goodevening",
+        "text": "hello good evening"
+      },
+      {
+        "intent": "greetings.goodevening",
+        "text": "evening"
+      },
+      {
+        "intent": "greetings.goodevening",
+        "text": "good evening there"
+      },
+      {
+        "intent": "greetings.goodevening",
+        "text": "have an awesome evening"
+      },
+      {
+        "intent": "greetings.goodevening",
+        "text": "happy evening"
+      },
+      {
+        "intent": "greetings.goodevening",
+        "text": "good evening there buddy"
+      },
+      {
+        "intent": "greetings.goodevening",
+        "text": "have a good evening"
+      },
+      {
+        "intent": "greetings.goodevening",
+        "text": "enjoy the evening"
+      },
+      {
+        "intent": "greetings.goodmorning",
+        "text": "GM"
+      },
+      {
+        "intent": "greetings.goodmorning",
+        "text": "good morning"
+      },
+      {
+        "intent": "greetings.goodmorning",
+        "text": "good morning to you"
+      },
+      {
+        "intent": "greetings.goodmorning",
+        "text": "hello good morning"
+      },
+      {
+        "intent": "greetings.goodmorning",
+        "text": "have a nice morning"
+      },
+      {
+        "intent": "greetings.goodmorning",
+        "text": "have a great morning"
+      },
+      {
+        "intent": "greetings.goodmorning",
+        "text": "morning"
+      },
+      {
+        "intent": "greetings.goodmorning",
+        "text": "good morning there"
+      },
+      {
+        "intent": "greetings.goodmorning",
+        "text": "top of the morning to you"
+      },
+      {
+        "intent": "greetings.goodmorning",
+        "text": "a good morning"
+      },
+      {
+        "intent": "greetings.goodmorning",
+        "text": "good morning to you"
+      },
+      {
+        "intent": "greetings.goodmorning",
+        "text": "hi good morning"
+      },
+      {
+        "intent": "greetings.goodmorning",
+        "text": "and a good morning to you"
+      },
+      {
+        "intent": "greetings.goodmorning",
+        "text": "good morning too"
+      },
+      {
+        "intent": "greetings.goodnight",
+        "text": "GN"
+      },
+      {
+        "intent": "greetings.goodnight",
+        "text": "sweet dreams"
+      },
+      {
+        "intent": "greetings.goodnight",
+        "text": "good night"
+      },
+      {
+        "intent": "greetings.goodnight",
+        "text": "have a good night"
+      },
+      {
+        "intent": "greetings.goodnight",
+        "text": "good night to you"
+      },
+      {
+        "intent": "greetings.goodnight",
+        "text": "thank you good night"
+      },
+      {
+        "intent": "greetings.goodnight",
+        "text": "bye good night"
+      },
+      {
+        "intent": "greetings.goodnight",
+        "text": "good night bye"
+      },
+      {
+        "intent": "greetings.goodnight",
+        "text": "bye good night"
+      },
+      {
+        "intent": "greetings.goodnight",
+        "text": "good good night"
+      },
+      {
+        "intent": "greetings.goodnight",
+        "text": "good night for now"
+      },
+      {
+        "intent": "greetings.goodnight",
+        "text": "goodnight"
+      },
+      {
+        "intent": "greetings.goodnight",
+        "text": "night"
+      },
+      {
+        "intent": "greetings.goodnight",
+        "text": "thanks goodnight"
+      },
+      {
+        "intent": "greetings.goodnight",
+        "text": "good night see you tomorrow"
+      },
+      {
+        "intent": "greetings.goodnight",
+        "text": "alright goodnight"
+      },
+      {
+        "intent": "greetings.goodnight",
+        "text": "good tonight"
+      },
+      {
+        "intent": "greetings.goodnight",
+        "text": "okay have a good night"
+      },
+      {
+        "intent": "greetings.goodnight",
+        "text": "night"
+      },
+      {
+        "intent": "greetings.goodnight",
+        "text": "have a good night"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "long time no see"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hello"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hi"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "howdy"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hey"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "greetings"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "I greet you"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "lovely day isn't it"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hello again"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "just going to say hi"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "a good day"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "afternoon"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hello hi"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "heya"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hey"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hi"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "Hello"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hey"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hey man"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hey buddy"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "oka"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "yo man"
+      },
+      {
+        "intent": "greetings.hello",
+        "text": "hola"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how is your morning so far"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how are you getting on"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how's your day going"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how are you?"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "Is everything all right"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how are you doing?"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how are the things going"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "are you alright"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "are you okay?"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how are you feeling"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how are you going?"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "Is everything okay"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how are you today?"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how do you do?"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how do you feel?"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how have you been?"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how is it going?"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how is your day"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how is your day going"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how is your evening"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how was your day"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "are you having a good day"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "hope your day is going well"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "hope you re having a pleasant evening"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how's life?"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "I'm fine and you"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how is your life"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how has your day been"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how is your morning going"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how has your day been going"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how about you?"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how is your day being"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how is your day going on"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how your day is going"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "what was your day like"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "what about your day"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how's your day"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how are you doing this morning"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how do you do?"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how are you"
+      },
+      {
+        "intent": "greetings.how_are_you",
+        "text": "how are you"
+      },
+      {
+        "intent": "greetings.nice_to_meet_you",
+        "text": "nice to meet you"
+      },
+      {
+        "intent": "greetings.nice_to_meet_you",
+        "text": "It was nice meeting you"
+      },
+      {
+        "intent": "greetings.nice_to_meet_you",
+        "text": "It was very nice to meet you"
+      },
+      {
+        "intent": "greetings.nice_to_meet_you",
+        "text": "good to know each other"
+      },
+      {
+        "intent": "greetings.nice_to_meet_you",
+        "text": "glad to meet you"
+      },
+      {
+        "intent": "greetings.nice_to_meet_you",
+        "text": "nice meeting you"
+      },
+      {
+        "intent": "greetings.nice_to_meet_you",
+        "text": "nice to meet you too"
+      },
+      {
+        "intent": "greetings.nice_to_meet_you",
+        "text": "pleased to meet you"
+      },
+      {
+        "intent": "greetings.nice_to_meet_you",
+        "text": "pleasure to meet you"
+      },
+      {
+        "intent": "greetings.nice_to_meet_you",
+        "text": "pleasure to meet you too"
+      },
+      {
+        "intent": "greetings.nice_to_meet_you",
+        "text": "happy to meet you"
+      },
+      {
+        "intent": "greetings.nice_to_meet_you",
+        "text": "It’s a pleasure to meet you again"
+      },
+      {
+        "intent": "greetings.nice_to_meet_you",
+        "text": "It’s very nice to meet you"
+      },
+      {
+        "intent": "greetings.nice_to_meet_you",
+        "text": "Lovely to meet you"
+      },
+      {
+        "intent": "greetings.nice_to_meet_you",
+        "text": "How wonderful to meet you"
+      },
+      {
+        "intent": "greetings.nice_to_meet_you",
+        "text": "It was lovely meeting you"
+      },
+      {
+        "intent": "greetings.nice_to_meet_you",
+        "text": "It’s been a pleasure meeting you"
+      },
+      {
+        "intent": "greetings.nice_to_meet_you",
+        "text": "I’ve enjoyed meeting you"
+      },
+      {
+        "intent": "greetings.nice_to_meet_you",
+        "text": "Great interacting with you"
+      },
+      {
+        "intent": "greetings.nice_to_meet_you",
+        "text": "I had a great time or meeting"
+      },
+      {
+        "intent": "greetings.nice_to_see_you",
+        "text": "It's nice to see you"
+      },
+      {
+        "intent": "greetings.nice_to_see_you",
+        "text": "lovely to see you"
+      },
+      {
+        "intent": "greetings.nice_to_see_you",
+        "text": "I'm glad to see you"
+      },
+      {
+        "intent": "greetings.nice_to_see_you",
+        "text": "great to see you"
+      },
+      {
+        "intent": "greetings.nice_to_see_you",
+        "text": "It's good to see you"
+      },
+      {
+        "intent": "greetings.nice_to_see_you",
+        "text": "glad to see you"
+      },
+      {
+        "intent": "greetings.nice_to_see_you",
+        "text": "how good it is to see you"
+      },
+      {
+        "intent": "greetings.nice_to_see_you",
+        "text": "always a pleasure to see you"
+      },
+      {
+        "intent": "greetings.nice_to_see_you",
+        "text": "nice to see you"
+      },
+      {
+        "intent": "greetings.nice_to_see_you",
+        "text": "good to see you"
+      },
+      {
+        "intent": "greetings.nice_to_see_you",
+        "text": "great to see you again"
+      },
+      {
+        "intent": "greetings.nice_to_see_you",
+        "text": "great to see you too"
+      },
+      {
+        "intent": "greetings.nice_to_see_you",
+        "text": "I am glad to see you again"
+      },
+      {
+        "intent": "greetings.nice_to_see_you",
+        "text": "nice to see you again"
+      },
+      {
+        "intent": "greetings.nice_to_see_you",
+        "text": "good to see you again"
+      },
+      {
+        "intent": "greetings.nice_to_see_you",
+        "text": "It's good to see you too"
+      },
+      {
+        "intent": "greetings.nice_to_see_you",
+        "text": "It was great catching up with u"
+      },
+      {
+        "intent": "greetings.nice_to_see_you",
+        "text": "I'm really pleased to see u again"
+      },
+      {
+        "intent": "greetings.nice_to_see_you",
+        "text": "I’m delighted to see you again"
+      },
+      {
+        "intent": "greetings.nice_to_see_you",
+        "text": "Great seeing u"
+      },
+      {
+        "intent": "greetings.nice_to_talk_to_you",
+        "text": "It's been so nice to talk to you"
+      },
+      {
+        "intent": "greetings.nice_to_talk_to_you",
+        "text": "It's been a pleasure talking to you"
+      },
+      {
+        "intent": "greetings.nice_to_talk_to_you",
+        "text": "nice to talk to you"
+      },
+      {
+        "intent": "greetings.nice_to_talk_to_you",
+        "text": "Thank You"
+      },
+      {
+        "intent": "greetings.nice_to_talk_to_you",
+        "text": "Yes, thank You"
+      },
+      {
+        "intent": "greetings.nice_to_talk_to_you",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "greetings.nice_to_talk_to_you",
+        "text": "It's nice to talk to you"
+      },
+      {
+        "intent": "greetings.nice_to_talk_to_you",
+        "text": "nice talking to you"
+      },
+      {
+        "intent": "greetings.nice_to_talk_to_you",
+        "text": "It is nice talking to you"
+      },
+      {
+        "intent": "greetings.nice_to_talk_to_you",
+        "text": "how nice it is to talk to you"
+      },
+      {
+        "intent": "greetings.nice_to_talk_to_you",
+        "text": "It was great chatting with you"
+      },
+      {
+        "intent": "greetings.nice_to_talk_to_you",
+        "text": "nice to talk to you again"
+      },
+      {
+        "intent": "greetings.nice_to_talk_to_you",
+        "text": "It was nice speaking with you"
+      },
+      {
+        "intent": "greetings.nice_to_talk_to_you",
+        "text": "It was great to talk to you"
+      },
+      {
+        "intent": "greetings.nice_to_talk_to_you",
+        "text": "nice chatting with you"
+      },
+      {
+        "intent": "greetings.nice_to_talk_to_you",
+        "text": "pleased to talk to you"
+      },
+      {
+        "intent": "greetings.nice_to_talk_to_you",
+        "text": "pleasure to talk"
+      },
+      {
+        "intent": "greetings.nice_to_talk_to_you",
+        "text": "It's been a pleasure talking to u"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "what is on your mind?"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "what's happened"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "what is up"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "what's up"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "whazzup"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "sup?"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "good what's up"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "I said what's up"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "then what's up"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "what's shaking"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "wassup"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "what are you doing?"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "what is going on"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "what is happening"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "what's cracking"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "what's cooking"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "hey what's up"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "what's up today"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "oh What happened?"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "What are you upto?"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "hey buddy wassup"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "sup then"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "so wassup"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "buddy sup"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "What are you doing?"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "what is up with you these days?"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "What you upto?"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "then?"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "wassup yo"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "sup yo"
+      },
+      {
+        "intent": "greetings.whatsup",
+        "text": "wassap yo"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "laptop",
+            "entity": "system"
+          }
+        ],
+        "text": "I want to buy a laptop"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "lapto",
+            "entity": "system"
+          }
+        ],
+        "text": "I want to buy a lapto"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "laptop",
+            "entity": "system"
+          }
+        ],
+        "text": "I want to purchase a laptop"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "laptop",
+            "entity": "system"
+          }
+        ],
+        "text": "I want to know about a laptop"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "laptops",
+            "entity": "system"
+          }
+        ],
+        "text": "Show me some laptops"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "laptop",
+            "entity": "system"
+          }
+        ],
+        "text": "I want laptop"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "laptops",
+            "entity": "system"
+          }
+        ],
+        "text": "I want laptops"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "laptop",
+            "entity": "system"
+          }
+        ],
+        "text": "Help me in getting a laptop"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "laptop",
+            "entity": "system"
+          }
+        ],
+        "text": "I want help in buying a laptop"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "laptop",
+            "entity": "system"
+          }
+        ],
+        "text": "What laptop should I buy?"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "laptop",
+            "entity": "system"
+          }
+        ],
+        "text": "Can you suggest me a laptop?"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 39,
+            "end": 45,
+            "value": "laptop",
+            "entity": "system"
+          }
+        ],
+        "text": "I want to know the specifications of a laptop"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "laptop",
+            "entity": "system"
+          }
+        ],
+        "text": "I need a laptop"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "laptop",
+            "entity": "system"
+          }
+        ],
+        "text": "I want help in buying a laptop"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "value": "laptop",
+            "entity": "system"
+          }
+        ],
+        "text": "I want help in getting a laptop"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 6,
+            "end": 12,
+            "value": "laptop",
+            "entity": "system"
+          }
+        ],
+        "text": "Buy a laptop"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "laptop",
+            "entity": "system"
+          }
+        ],
+        "text": "Shop a laptop"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "desktop",
+            "entity": "system"
+          }
+        ],
+        "text": "I want to buy a desktop"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 16,
+            "end": 27,
+            "value": "workstation",
+            "entity": "system"
+          }
+        ],
+        "text": "I want to buy a workstation"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "desktop",
+            "entity": "system"
+          }
+        ],
+        "text": "I want to purchase a desktop"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 21,
+            "end": 32,
+            "value": "workstation",
+            "entity": "system"
+          }
+        ],
+        "text": "I want to purchase a workstation"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "desktop",
+            "entity": "system"
+          }
+        ],
+        "text": "I want to know about a desktop"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 23,
+            "end": 34,
+            "value": "workstation",
+            "entity": "system"
+          }
+        ],
+        "text": "I want to know about a workstation"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "desktops",
+            "entity": "system"
+          }
+        ],
+        "text": "Show me some desktops"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 13,
+            "end": 24,
+            "value": "workstation",
+            "entity": "system"
+          }
+        ],
+        "text": "Show me some workstation"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "desktop",
+            "entity": "system"
+          }
+        ],
+        "text": "I want desktop"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "workstation",
+            "entity": "system"
+          }
+        ],
+        "text": "I want workstation"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "desktops",
+            "entity": "system"
+          }
+        ],
+        "text": "I want desktops"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "workstation",
+            "entity": "system"
+          }
+        ],
+        "text": "I want workstation"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "desktop",
+            "entity": "system"
+          }
+        ],
+        "text": "Help me in getting a desktop"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 21,
+            "end": 32,
+            "value": "workstation",
+            "entity": "system"
+          }
+        ],
+        "text": "Help me in getting a workstation"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "desktop",
+            "entity": "system"
+          }
+        ],
+        "text": "I want help in buying a desktop"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 24,
+            "end": 35,
+            "value": "workstation",
+            "entity": "system"
+          }
+        ],
+        "text": "I want help in buying a workstation"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "desktop",
+            "entity": "system"
+          }
+        ],
+        "text": "What desktop should I buy?"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 5,
+            "end": 16,
+            "value": "workstation",
+            "entity": "system"
+          }
+        ],
+        "text": "What workstation should I buy?"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "desktop",
+            "entity": "system"
+          }
+        ],
+        "text": "Can you suggest me a desktop?"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 21,
+            "end": 32,
+            "value": "workstation",
+            "entity": "system"
+          }
+        ],
+        "text": "Can you suggest me a workstation?"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 39,
+            "end": 46,
+            "value": "desktop",
+            "entity": "system"
+          }
+        ],
+        "text": "I want to know the specifications of a desktop"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 39,
+            "end": 50,
+            "value": "workstation",
+            "entity": "system"
+          }
+        ],
+        "text": "I want to know the specifications of a workstation"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "desktop",
+            "entity": "system"
+          }
+        ],
+        "text": "I need a desktop"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "desktop",
+            "entity": "system"
+          }
+        ],
+        "text": "I want help in buying a desktop"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 25,
+            "end": 32,
+            "value": "desktop",
+            "entity": "system"
+          }
+        ],
+        "text": "I want help in getting a desktop"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "i3",
+            "entity": "processor"
+          }
+        ],
+        "text": "i3"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 6,
+            "end": 13,
+            "value": "desktop",
+            "entity": "system"
+          }
+        ],
+        "text": "Buy a desktop"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "desktop",
+            "entity": "system"
+          }
+        ],
+        "text": "Shop a desktop"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "i7",
+            "entity": "processor"
+          }
+        ],
+        "text": "i7"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "i3",
+            "entity": "processor"
+          }
+        ],
+        "text": "i3"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "i3",
+            "entity": "processor"
+          }
+        ],
+        "text": "i3"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "i3",
+            "entity": "processor"
+          }
+        ],
+        "text": "i3"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "i3",
+            "entity": "processor"
+          }
+        ],
+        "text": "i3"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "i3",
+            "entity": "processor"
+          }
+        ],
+        "text": "i3"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "i3",
+            "entity": "processor"
+          }
+        ],
+        "text": "i3"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "i5",
+            "entity": "processor"
+          }
+        ],
+        "text": "i5"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "pentium",
+            "entity": "processor"
+          }
+        ],
+        "text": "pentium"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "intel i7",
+            "entity": "processor"
+          }
+        ],
+        "text": "intel i7"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "intel i3",
+            "entity": "processor"
+          }
+        ],
+        "text": "intel i3"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "intel i5",
+            "entity": "processor"
+          }
+        ],
+        "text": "intel i5"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "xeon",
+            "entity": "processor"
+          }
+        ],
+        "text": "xeon"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "celeron",
+            "entity": "processor"
+          }
+        ],
+        "text": "celeron"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "8GB",
+            "entity": "ram"
+          }
+        ],
+        "text": "8GB"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "4GB",
+            "entity": "ram"
+          }
+        ],
+        "text": "4GB"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "16GB",
+            "entity": "ram"
+          }
+        ],
+        "text": "16GB"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "32GB",
+            "entity": "ram"
+          }
+        ],
+        "text": "32GB"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "8gb",
+            "entity": "ram"
+          }
+        ],
+        "text": "8gb"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "4gb",
+            "entity": "ram"
+          }
+        ],
+        "text": "4gb"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "16gb",
+            "entity": "ram"
+          }
+        ],
+        "text": "16gb"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "32gb",
+            "entity": "ram"
+          }
+        ],
+        "text": "32gb"
+      },
+      {
+        "intent": "need_another",
+        "text": "No, need another"
+      },
+      {
+        "intent": "need_another",
+        "text": "I don't need this product"
+      },
+      {
+        "intent": "need_another",
+        "text": "Show another one"
+      },
+      {
+        "intent": "need_another",
+        "text": "I want different one"
+      },
+      {
+        "intent": "need_another",
+        "text": "Not this"
+      },
+      {
+        "intent": "need_another",
+        "text": "not this one"
+      },
+      {
+        "intent": "need_another",
+        "text": "No"
+      },
+      {
+        "intent": "need_another",
+        "text": "Another one"
+      },
+      {
+        "intent": "need_another",
+        "text": "I don't want this"
+      },
+      {
+        "intent": "need_another",
+        "text": "I don't like it"
+      },
+      {
+        "intent": "order_status",
+        "text": "I want to check the status of my order."
+      },
+      {
+        "intent": "order_status",
+        "text": "What is the update on my order."
+      },
+      {
+        "intent": "order_status",
+        "text": "I want to know the update on my order."
+      },
+      {
+        "intent": "order_status",
+        "text": "Where is my order?"
+      },
+      {
+        "intent": "order_status",
+        "text": "Where is my order"
+      },
+      {
+        "intent": "order_status",
+        "text": "What happened to my order."
+      },
+      {
+        "intent": "order_status",
+        "text": "What happened to my order?"
+      },
+      {
+        "intent": "order_status",
+        "text": "Status of my order"
+      },
+      {
+        "intent": "order_status",
+        "text": "About my order."
+      },
+      {
+        "intent": "order_status",
+        "text": "I want to track my order."
+      },
+      {
+        "intent": "recent_order",
+        "text": "I want to see my recent orders."
+      },
+      {
+        "intent": "recent_order",
+        "text": "I want to check my recent orders."
+      },
+      {
+        "intent": "recent_order",
+        "text": "I want to see the orders I made recently."
+      },
+      {
+        "intent": "recent_order",
+        "text": "I want to see my previous orders."
+      },
+      {
+        "intent": "recent_order",
+        "text": "I want to see my last few orders."
+      },
+      {
+        "intent": "recent_order",
+        "text": "Show me my last few orders."
+      },
+      {
+        "intent": "recent_order",
+        "text": "Show me my recent orders."
+      },
+      {
+        "intent": "recent_order",
+        "text": "Show my recently made orders."
+      },
+      {
+        "intent": "recent_order",
+        "text": "See recent orders."
+      },
+      {
+        "intent": "recent_order",
+        "text": "I want to look into my recent orders."
+      },
+      {
+        "intent": "recent_order",
+        "text": "What are my recent orders."
+      },
+      {
+        "intent": "recent_order",
+        "text": "What is my order history?"
+      },
+      {
+        "intent": "recent_order",
+        "text": "Show me my order history."
+      },
+      {
+        "intent": "recent_order",
+        "text": "Wants to check my order history.\""
+      },
+      {
+        "intent": "recent_order",
+        "text": "recent orders."
+      },
+      {
+        "intent": "recent_order",
+        "text": "order history."
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
