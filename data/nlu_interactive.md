@@ -1,10 +1,9 @@
-## intent:greetings.hello
-- hey
+## intent:appraisal.thank_you
+- Thank you
 
-## intent:greetings.nice_to_talk_to_you
-- nice to talk to you
+## intent:confirmation.yes
+- yes
 
-## intent:inform_buy
-- i want a [desktop](system)
-- [i3](processor)
-- [8gb](ram:8 gb)
+## intent:inform_orderHistory
+- show my orders
+- [Nischal_Bhatt@Dell.com](email:nischal_bhatt@dell.com)

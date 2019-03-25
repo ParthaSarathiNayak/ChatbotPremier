@@ -72,13 +72,30 @@ function ValidURL(str) {
 function createResponder(msg) {
      
     if(!ValidURL(msg)){
-        let li = document.createElement('li');
-        li.innerHTML = msg;
-        if (voice() == true)
-            speak(li.innerText);
-        li.className = 'responder';
-        ul.appendChild(li)
-        chat.scrollTop = chat.scrollHeight;
+        
+        var numberOfLineBreaks = (msg.match(/\n/g)||[]).length -1;
+        var Msg = msg.split('\n');
+        var n=0;
+        do{
+            var br = document.createElement("br");
+            let li = document.createElement('li');
+            li.innerHTML = Msg[n];
+            if (voice() == true)
+                speak(li.innerText);
+            li.className = 'responder';
+            ul.appendChild(li)
+            ul.appendChild(br)
+            if(Msg.includes('is it ok for you?')){
+                let i = document.createElement('img');
+                i.className = 'responder';
+                i.setAttribute('src', 'xps.jpg');
+                i.setAttribute('style', 'width: 50%; height: 60%');
+                ul.appendChild(i)
+            }
+            chat.scrollTop = chat.scrollHeight;
+            n++;
+        }while(n <= numberOfLineBreaks);
+
     } else{
         let a = document.createElement('a');
         a.className = 'responder';

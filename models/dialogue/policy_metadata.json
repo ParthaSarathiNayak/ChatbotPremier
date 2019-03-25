@@ -2,8 +2,9 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "processor",
+        "email",
         "ram",
+        "processor",
         "system"
       ]
     },
@@ -25,7 +26,42 @@
         "matches"
       ]
     },
+    "action_give_link2": {
+      "slots": [
+        "prod_id"
+      ]
+    },
+    "action_search_history": {
+      "slots": [
+        "orderCount",
+        "history"
+      ]
+    },
+    "utter_appraisal.thank_you": {
+      "slots": []
+    },
+    "action_search_product3": {
+      "slots": [
+        "matches"
+      ]
+    },
+    "action_give_link3": {
+      "slots": [
+        "prod_id"
+      ]
+    },
+    "action_search_history_all": {
+      "slots": [
+        "history"
+      ]
+    },
     "utter_greetings.bye": {
+      "slots": []
+    },
+    "action_show_history": {
+      "slots": []
+    },
+    "utter_ask_email": {
       "slots": []
     },
     "action_restart": {
@@ -36,7 +72,7 @@
   "max_histories": [
     5,
     null,
-    5,
+    3,
     2
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
@@ -46,7 +82,7 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190311-124922",
+  "trained_at": "20190314-153251",
   "rasa_core": "0.13.2",
   "tensorflow": "1.12.0",
   "sklearn": "0.20.3"

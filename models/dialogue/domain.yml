@@ -21,17 +21,28 @@ actions:
 - utter_ask_system
 - utter_ask_processor
 - utter_ask_ram
+- utter_ask_email
 - utter_ask_storage
 - utter_ask_display
 - utter_ask_os
 - action_search_product
+- action_search_history
 - action_search_product2
+- action_search_product3
 - action_further_search_product
 - action_suggest
+- action_show_history
 - action_give_link
+- action_give_link2
+- action_give_link3
 - utter_no_matches
 - utter_give_link
 - utter_wrong_input
+- utter_ask_pros
+- action_search_history_all
+- utter_ask_more
+- utter_appraisal.thank_you
+- utter_email_not_found
 config:
   store_entities_as_slots: true
 entities:
@@ -41,9 +52,12 @@ entities:
 - storage
 - display
 - os
+- email
 forms: []
 intents:
 - greetings.bye:
+    use_entities: true
+- appraisal.thank_you:
     use_entities: true
 - greetings.goodevening:
     use_entities: true
@@ -71,6 +85,8 @@ intents:
     use_entities: true
 - inform_buy:
     use_entities: true
+- inform_orderHistory:
+    use_entities: true
 - config_search:
     use_entities: true
 - order_status:
@@ -84,10 +100,22 @@ slots:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.TextSlot
+  email:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  history:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
   matches:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.UnfeaturizedSlot
+  orderCount:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.BooleanSlot
   os:
     auto_fill: true
     initial_value: null
@@ -113,12 +141,32 @@ slots:
     initial_value: null
     type: rasa_core.slots.TextSlot
 templates:
+  utter_appraisal.thank_you:
+  - text: Anytime. That's what I'm here for.
+  - text: It's my pleasure to help.
   utter_ask_display:
   - text: Screen Size?
+  utter_ask_email:
+  - text: please provide your email ID
+  utter_ask_more:
+  - text: Do you want to see more Orders?
   utter_ask_os:
   - text: Which Operating System do you need?
   utter_ask_processor:
   - text: What processor do you need?
+  utter_ask_pros:
+  - buttons:
+    - payload: '/inform_buy{"processor": "i7"}'
+      title: i7
+    - payload: '/inform_buy{"processor": "i3"}'
+      title: i3
+    - payload: '/inform_buy{"processor": "i5"}'
+      title: i5
+    - payload: '/inform_buy{"processor": "xeon"}'
+      title: xeon
+    - payload: '/inform_buy{"processor": "Celeron"}'
+      title: Celeron
+    text: What processor do you need?
   utter_ask_ram:
   - text: How much memory do you need?
   utter_ask_storage:
@@ -144,6 +192,8 @@ templates:
   - text: Great!
   - text: All right!
   - text: Good!
+  utter_email_not_found:
+  - text: No history found! Please Provide a valid email id
   utter_give_link:
   - link: https://www.dell.com/premier/configure/us/en/rc1387181/?productId={prod_id}#
     text: https://www.dell.com/premier/configure/us/en/rc1387181/?productId={prod_id}#
@@ -201,11 +251,6 @@ templates:
   - text: Sure, I'll show your recent order status.
   - text: Order Status
   - text: You can track your order status here.
-  utter_recent_order:
-  - text: This is your order history.
-  - text: These are your order history.
-  - text: Your recent order history.
-  - text: Your recent orders.
   utter_show_product:
   - text: What do you want to buy?
   utter_wrong_input:

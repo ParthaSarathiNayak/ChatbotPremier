@@ -2,6 +2,150 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
+        "intent": "appraisal.thank_you",
+        "text": "you helped a lot thank you"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "appreciate your help"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "cheers"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "thank you"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "thanks"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "terrific thank you"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "great thank you"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "thanks so much"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "thank you so much"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "thanks for your help"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "thank you for your help"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "nice thank you"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "I appreciate it"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "I thank you"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "thank you that will be all"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "thanks buddy"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "thanks love"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "thank you my friend"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "well thanks"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "very good thank you"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "good thanks"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "thanks again"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "thank you again"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "all thank you"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "alright thank you"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "alright thanks"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "no thank you that's all"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "perfect thank you"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "so nice of you"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "well thank you"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "well thanks"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "thnx"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "thank you"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "tqsm"
+      },
+      {
+        "intent": "appraisal.thank_you",
+        "text": "ty"
+      },
+      {
         "intent": "config_search",
         "text": "I want to see some standar configurations."
       },
@@ -1063,10 +1207,6 @@
       },
       {
         "intent": "greetings.nice_to_talk_to_you",
-        "text": "Yes, thank You"
-      },
-      {
-        "intent": "greetings.nice_to_talk_to_you",
         "text": "thanks a lot"
       },
       {
@@ -1799,78 +1939,6 @@
           {
             "start": 0,
             "end": 2,
-            "value": "i3",
-            "entity": "processor"
-          }
-        ],
-        "text": "i3"
-      },
-      {
-        "intent": "inform_buy",
-        "entities": [
-          {
-            "start": 0,
-            "end": 2,
-            "value": "i3",
-            "entity": "processor"
-          }
-        ],
-        "text": "i3"
-      },
-      {
-        "intent": "inform_buy",
-        "entities": [
-          {
-            "start": 0,
-            "end": 2,
-            "value": "i3",
-            "entity": "processor"
-          }
-        ],
-        "text": "i3"
-      },
-      {
-        "intent": "inform_buy",
-        "entities": [
-          {
-            "start": 0,
-            "end": 2,
-            "value": "i3",
-            "entity": "processor"
-          }
-        ],
-        "text": "i3"
-      },
-      {
-        "intent": "inform_buy",
-        "entities": [
-          {
-            "start": 0,
-            "end": 2,
-            "value": "i3",
-            "entity": "processor"
-          }
-        ],
-        "text": "i3"
-      },
-      {
-        "intent": "inform_buy",
-        "entities": [
-          {
-            "start": 0,
-            "end": 2,
-            "value": "i3",
-            "entity": "processor"
-          }
-        ],
-        "text": "i3"
-      },
-      {
-        "intent": "inform_buy",
-        "entities": [
-          {
-            "start": 0,
-            "end": 2,
             "value": "i5",
             "entity": "processor"
           }
@@ -1931,11 +1999,11 @@
           {
             "start": 0,
             "end": 4,
-            "value": "xeon",
+            "value": "Xeon",
             "entity": "processor"
           }
         ],
-        "text": "xeon"
+        "text": "Xeon"
       },
       {
         "intent": "inform_buy",
@@ -2046,6 +2114,286 @@
         "text": "32gb"
       },
       {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 9,
+            "end": 20,
+            "value": "workstation",
+            "entity": "system"
+          }
+        ],
+        "text": "I want a workstation"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "xeon",
+            "entity": "processor"
+          }
+        ],
+        "text": "xeon"
+      },
+      {
+        "intent": "inform_buy",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "8 gb",
+            "entity": "ram"
+          }
+        ],
+        "text": "8gb"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "text": "I want to see my recent orders"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "text": "show me my orders"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "text": "I want to see my recent orders."
+      },
+      {
+        "intent": "inform_orderHistory",
+        "text": "I want to check my recent orders."
+      },
+      {
+        "intent": "inform_orderHistory",
+        "text": "I want to see the orders I made recently"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "text": "I want to see my previous orders"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "text": "I want to see my last few orders"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "text": "Show me my last few orders"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "text": "Show me my recent orders"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "text": "Show my recently made orders"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "text": "See recent orders."
+      },
+      {
+        "intent": "inform_orderHistory",
+        "text": "I want to look into my recent orders"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "text": "What are my recent orders"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "text": "What is my order history?"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "text": "Show me my order history"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "text": "Wants to check my order history"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "text": "recent orders"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "text": "order history"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "text": "Show details of my orders"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "entities": [
+          {
+            "start": 0,
+            "end": 22,
+            "value": "Nischal_Bhatt@Dell.com",
+            "entity": "email"
+          }
+        ],
+        "text": "Nischal_Bhatt@Dell.com"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "entities": [
+          {
+            "start": 0,
+            "end": 31,
+            "value": "venkateswara_jakka@dellteam.com",
+            "entity": "email"
+          }
+        ],
+        "text": "venkateswara_jakka@dellteam.com"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "Shaik_Sadiq@Dell.com",
+            "entity": "email"
+          }
+        ],
+        "text": "Shaik_Sadiq@Dell.com"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "entities": [
+          {
+            "start": 0,
+            "end": 25,
+            "value": "Tripura_Subbarao@Dell.com",
+            "entity": "email"
+          }
+        ],
+        "text": "Tripura_Subbarao@Dell.com"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "h_neharkar@dell.com",
+            "entity": "email"
+          }
+        ],
+        "text": "h_neharkar@dell.com"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "Sharath_V_kumar@dell.com",
+            "entity": "email"
+          }
+        ],
+        "text": "Sharath_V_kumar@dell.com"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "entities": [
+          {
+            "start": 0,
+            "end": 29,
+            "value": "praveen_gopinath@dellteam.com",
+            "entity": "email"
+          }
+        ],
+        "text": "praveen_gopinath@dellteam.com"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "entities": [
+          {
+            "start": 0,
+            "end": 28,
+            "value": "deepika_dheeraj@dellteam.com",
+            "entity": "email"
+          }
+        ],
+        "text": "deepika_dheeraj@dellteam.com"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "entities": [
+          {
+            "start": 0,
+            "end": 28,
+            "value": "shivani_saurabh@dellteam.com",
+            "entity": "email"
+          }
+        ],
+        "text": "shivani_saurabh@dellteam.com"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "DellAutomation237@dell.com",
+            "entity": "email"
+          }
+        ],
+        "text": "DellAutomation237@dell.com"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "sendil_babu@dell.com",
+            "entity": "email"
+          }
+        ],
+        "text": "sendil_babu@dell.com"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "gayathry_v_s@dell.com",
+            "entity": "email"
+          }
+        ],
+        "text": "gayathry_v_s@dell.com"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "entities": [
+          {
+            "start": 0,
+            "end": 28,
+            "value": "Sandeep_Pajerla@dellteam.com",
+            "entity": "email"
+          }
+        ],
+        "text": "Sandeep_Pajerla@dellteam.com"
+      },
+      {
+        "intent": "inform_orderHistory",
+        "entities": [
+          {
+            "start": 0,
+            "end": 25,
+            "value": "r_santosh_vineel@dell.com",
+            "entity": "email"
+          }
+        ],
+        "text": "r_santosh_vineel@dell.com"
+      },
+      {
         "intent": "need_another",
         "text": "No, need another"
       },
@@ -2124,74 +2472,17 @@
       {
         "intent": "order_status",
         "text": "I want to track my order."
-      },
-      {
-        "intent": "recent_order",
-        "text": "I want to see my recent orders."
-      },
-      {
-        "intent": "recent_order",
-        "text": "I want to check my recent orders."
-      },
-      {
-        "intent": "recent_order",
-        "text": "I want to see the orders I made recently."
-      },
-      {
-        "intent": "recent_order",
-        "text": "I want to see my previous orders."
-      },
-      {
-        "intent": "recent_order",
-        "text": "I want to see my last few orders."
-      },
-      {
-        "intent": "recent_order",
-        "text": "Show me my last few orders."
-      },
-      {
-        "intent": "recent_order",
-        "text": "Show me my recent orders."
-      },
-      {
-        "intent": "recent_order",
-        "text": "Show my recently made orders."
-      },
-      {
-        "intent": "recent_order",
-        "text": "See recent orders."
-      },
-      {
-        "intent": "recent_order",
-        "text": "I want to look into my recent orders."
-      },
-      {
-        "intent": "recent_order",
-        "text": "What are my recent orders."
-      },
-      {
-        "intent": "recent_order",
-        "text": "What is my order history?"
-      },
-      {
-        "intent": "recent_order",
-        "text": "Show me my order history."
-      },
-      {
-        "intent": "recent_order",
-        "text": "Wants to check my order history.\""
-      },
-      {
-        "intent": "recent_order",
-        "text": "recent orders."
-      },
-      {
-        "intent": "recent_order",
-        "text": "order history."
       }
     ],
     "regex_features": [],
     "lookup_tables": [],
-    "entity_synonyms": []
+    "entity_synonyms": [
+      {
+        "value": "8 gb",
+        "synonyms": [
+          "8gb"
+        ]
+      }
+    ]
   }
 }

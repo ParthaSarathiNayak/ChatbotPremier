@@ -1,11 +1,11 @@
 policies:
   - name: KerasPolicy
-    epochs: 100
+    epochs: 140
     max_history: 5
   - name: FallbackPolicy
     nlu_threshold: 0.2
     core_threshold: 0.0
     fallback_action_name: 'action_default_fallback'
   - name: MemoizationPolicy
-    max_history: 5
+    max_history: 3
   - name: FormPolicy

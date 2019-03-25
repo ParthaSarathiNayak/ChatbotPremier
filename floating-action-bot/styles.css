@@ -6,7 +6,11 @@
 }
 body{
     font-family: 'IBM Plex Sans', sans-serif;
+    background-image: url("Premier_Navigation.JPG");
+    background-repeat: no-repeat;
 
+    background-size: cover;
+    
 }
 #typing{
     position: absolute;

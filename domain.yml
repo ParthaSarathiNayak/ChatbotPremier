@@ -11,10 +11,16 @@ slots:
     type: text
   os:
     type: text
+  email:
+    type: text
+  history:
+    type: unfeaturized
   matches:
     type: unfeaturized
   prod_id:
     type: unfeaturized
+  orderCount:
+    type: bool
 
 entities:
 - system
@@ -23,9 +29,11 @@ entities:
 - storage
 - display
 - os
+- email
 
 intents:
   - greetings.bye
+  - appraisal.thank_you
   - greetings.goodevening
   - greetings.goodmorning
   - greetings.goodnight
@@ -39,6 +47,7 @@ intents:
   - confirmation.cancel
   - confirmation.no
   - inform_buy
+  - inform_orderHistory
   - config_search
   - order_status
   - recent_order
@@ -65,17 +74,28 @@ actions:
   - utter_ask_system
   - utter_ask_processor
   - utter_ask_ram
+  - utter_ask_email
   - utter_ask_storage
   - utter_ask_display
   - utter_ask_os
   - action_search_product
+  - action_search_history
   - action_search_product2
+  - action_search_product3
   - action_further_search_product
   - action_suggest
+  - action_show_history
   - action_give_link
+  - action_give_link2
+  - action_give_link3
   - utter_no_matches
   - utter_give_link
   - utter_wrong_input
+  - utter_ask_pros
+  - action_search_history_all
+  - utter_ask_more
+  - utter_appraisal.thank_you
+  - utter_email_not_found
 
 templates:
     utter_greetings.bye:
@@ -83,6 +103,10 @@ templates:
         - "Bye-bye!"
         - "Till next time!"
         - "Bye."
+
+    utter_appraisal.thank_you:
+        - "Anytime. That's what I'm here for."
+        - "It's my pleasure to help."
 
     utter_greetings.goodevening:
         - "How is your day going?"
@@ -162,11 +186,8 @@ templates:
         - "Order Status"
         - "You can track your order status here."
 
-    utter_recent_order:
-        - "This is your order history."
-        - "These are your order history."
-        - "Your recent order history."
-        - "Your recent orders."
+    utter_ask_email:
+        - "please provide your email ID"
 
     utter_show_product:
         - "What do you want to buy?"
@@ -186,9 +207,27 @@ templates:
         - "Which Operating System do you need?"
     utter_no_matches:
         - "Sorry, I couldn't find your product"
+    utter_email_not_found:
+        - "No history found! Please Provide a valid email id"
     utter_wrong_input:
         - "Please give correct input!"
     utter_give_link:
         - text : "https://www.dell.com/premier/configure/us/en/rc1387181/?productId={prod_id}#"
           link : "https://www.dell.com/premier/configure/us/en/rc1387181/?productId={prod_id}#"
+    utter_ask_more:
+        - text : "Do you want to see more Orders?"
+    utter_ask_pros:
+        - text: "What processor do you need?"
+          buttons:
+          - title: "i7"
+            payload: '/inform_buy{"processor": "i7"}'
+          - title: "i3"
+            payload: '/inform_buy{"processor": "i3"}'
+          - title: "i5"
+            payload: '/inform_buy{"processor": "i5"}'
+          - title: "xeon"
+            payload: '/inform_buy{"processor": "xeon"}'
+          - title: "Celeron"
+            payload: '/inform_buy{"processor": "Celeron"}'
+
 

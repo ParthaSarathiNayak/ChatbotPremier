@@ -1,0 +1,34 @@
+## intent:inform_orderHistory
+- I want to see my recent orders
+- show me my orders
+- I want to see my recent orders.
+- I want to check my recent orders.
+- I want to see the orders I made recently
+- I want to see my previous orders
+- I want to see my last few orders
+- Show me my last few orders
+- Show me my recent orders
+- Show my recently made orders
+- See recent orders.
+- I want to look into my recent orders
+- What are my recent orders
+- What is my order history?
+- Show me my order history
+- Wants to check my order history
+- recent orders
+- order history
+- Show details of my orders
+- [Nischal_Bhatt@Dell.com](email)
+- [venkateswara_jakka@dellteam.com](email)
+- [Shaik_Sadiq@Dell.com](email)
+- [Tripura_Subbarao@Dell.com](email)
+- [h_neharkar@dell.com](email)
+- [Sharath_V_kumar@dell.com](email)
+- [praveen_gopinath@dellteam.com](email)
+- [deepika_dheeraj@dellteam.com](email)
+- [shivani_saurabh@dellteam.com](email)
+- [DellAutomation237@dell.com](email)
+- [sendil_babu@dell.com](email)
+- [gayathry_v_s@dell.com](email)
+- [Sandeep_Pajerla@dellteam.com](email)
+- [r_santosh_vineel@dell.com](email)
