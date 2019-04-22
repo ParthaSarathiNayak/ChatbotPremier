@@ -43,6 +43,7 @@ actions:
 - utter_ask_more
 - utter_appraisal.thank_you
 - utter_email_not_found
+- utter_ask_butRam
 config:
   store_entities_as_slots: true
 entities:
@@ -95,6 +96,10 @@ intents:
     use_entities: true
 - need_another:
     use_entities: true
+- help_buy:
+    use_entities: true
+- see_history:
+    use_entities: true
 slots:
   display:
     auto_fill: true
@@ -144,6 +149,17 @@ templates:
   utter_appraisal.thank_you:
   - text: Anytime. That's what I'm here for.
   - text: It's my pleasure to help.
+  utter_ask_butRam:
+  - buttons:
+    - payload: '/inform_buy{"ram": "4 gb"}'
+      title: 4GB
+    - payload: '/inform_buy{"ram": "8 gb"}'
+      title: 8GB
+    - payload: '/inform_buy{"ram": "16 gb"}'
+      title: 16GB
+    - payload: '/inform_buy{"ram": "32 gb"}'
+      title: 32GB
+    text: How much RAM do you need?
   utter_ask_display:
   - text: Screen Size?
   utter_ask_email:
@@ -252,6 +268,6 @@ templates:
   - text: Order Status
   - text: You can track your order status here.
   utter_show_product:
-  - text: What do you want to buy?
+  - text: Which Product would you like to see?
   utter_wrong_input:
   - text: Please give correct input!

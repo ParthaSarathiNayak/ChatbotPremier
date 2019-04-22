@@ -288,7 +288,7 @@ class ActionSuggest(Action):
             dispatcher.utter_message("here's what I found:")
             dispatcher.utter_message(tracker.get_slot("matches"))
             dispatcher.utter_template("utter_give_link", tracker)
-            dispatcher.utter_message("is it ok for you?\n")
+            dispatcher.utter_message("is it ok for you?")
             return []
         return []
 

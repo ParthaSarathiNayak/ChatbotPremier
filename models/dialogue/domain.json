@@ -15,11 +15,13 @@
     "intent_greetings.nice_to_see_you",
     "intent_greetings.nice_to_talk_to_you",
     "intent_greetings.whatsup",
+    "intent_help_buy",
     "intent_inform_buy",
     "intent_inform_orderHistory",
     "intent_need_another",
     "intent_order_status",
     "intent_recent_order",
+    "intent_see_history",
     "entity_system",
     "entity_ram",
     "entity_processor",
@@ -84,6 +86,7 @@
     "prev_action_search_history_all",
     "prev_utter_ask_more",
     "prev_utter_appraisal.thank_you",
-    "prev_utter_email_not_found"
+    "prev_utter_email_not_found",
+    "prev_utter_ask_butRam"
   ]
 }

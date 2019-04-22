@@ -1382,6 +1382,18 @@
         "text": "wassap yo"
       },
       {
+        "intent": "help_buy",
+        "text": "Help in buying a product?"
+      },
+      {
+        "intent": "help_buy",
+        "text": "Need help in buying a product?"
+      },
+      {
+        "intent": "help_buy",
+        "text": "Recommend me a product"
+      },
+      {
         "intent": "inform_buy",
         "entities": [
           {
@@ -2472,6 +2484,18 @@
       {
         "intent": "order_status",
         "text": "I want to track my order."
+      },
+      {
+        "intent": "see_history",
+        "text": "Help in seeing Order History"
+      },
+      {
+        "intent": "see_history",
+        "text": "Need help in seeing Order History?"
+      },
+      {
+        "intent": "see_history",
+        "text": "Show my Order History"
       }
     ],
     "regex_features": [],

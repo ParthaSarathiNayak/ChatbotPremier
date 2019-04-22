@@ -52,6 +52,8 @@ intents:
   - order_status
   - recent_order
   - need_another
+  - help_buy
+  - see_history
 
 actions:
   - utter_greetings.bye
@@ -96,6 +98,7 @@ actions:
   - utter_ask_more
   - utter_appraisal.thank_you
   - utter_email_not_found
+  - utter_ask_butRam
 
 templates:
     utter_greetings.bye:
@@ -190,7 +193,7 @@ templates:
         - "please provide your email ID"
 
     utter_show_product:
-        - "What do you want to buy?"
+        - "Which Product would you like to see?"
 
     utter_ask_system:
         - "What system do you want?"
@@ -219,7 +222,7 @@ templates:
     utter_ask_pros:
         - text: "What processor do you need?"
           buttons:
-          - title: "i7"
+          - title: i7
             payload: '/inform_buy{"processor": "i7"}'
           - title: "i3"
             payload: '/inform_buy{"processor": "i3"}'
@@ -229,5 +232,17 @@ templates:
             payload: '/inform_buy{"processor": "xeon"}'
           - title: "Celeron"
             payload: '/inform_buy{"processor": "Celeron"}'
+
+    utter_ask_butRam:
+        - text: "How much RAM do you need?"
+          buttons:
+          - title: "4GB"
+            payload: '/inform_buy{"ram": "4 gb"}'
+          - title: "8GB"
+            payload: '/inform_buy{"ram": "8 gb"}'
+          - title: "16GB"
+            payload: '/inform_buy{"ram": "16 gb"}'
+          - title: "32GB"
+            payload: '/inform_buy{"ram": "32 gb"}'
 
 

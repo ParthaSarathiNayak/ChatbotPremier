@@ -69,9 +69,113 @@ function ValidURL(str) {
     return true;
   }
 
+function createButton(msg){
+    if(msg.includes('What processor do you need?')){
+        let li = document.createElement('li');
+        li.innerHTML = msg;
+        if (voice() == true)
+            speak(li.innerText);
+        li.className = 'responder';
+        
+        ul.appendChild(li)
+
+        var createBtn = function(btn, name)
+        {
+        btn.className = 'chat-button';
+        btn.innerHTML = name;
+        btn.setAttribute('value', name); 
+        btn.setAttribute('id', 'btnVal' + name);
+        btn.setAttribute('onclick', 'sendButton(this.id)');
+        ul.appendChild(btn)
+        
+        }
+        
+        let bt = document.createElement('button');
+        let bt1 = document.createElement('button');
+        let bt2 = document.createElement('button');
+        let bt3 = document.createElement('button');
+        let bt4 = document.createElement('button');
+        
+        createBtn(bt, 'i3');
+        createBtn(bt1, 'i5');
+        createBtn(bt2, 'i7');
+        createBtn(bt3, 'Xeon');
+        createBtn(bt4, 'Celeron');
+
+
+        chat.scrollTop = chat.scrollHeight;
+    }
+    else if(msg.includes('How much memory do you need?')){
+        let li = document.createElement('li');
+        li.innerHTML = msg;
+        if (voice() == true)
+            speak(li.innerText);
+        li.className = 'responder';
+        
+        ul.appendChild(li)
+
+        var createBtn = function(btn, name)
+        {
+        btn.className = 'chat-button';
+        btn.innerHTML = name;
+        btn.setAttribute('value', name); 
+        btn.setAttribute('id', 'btnVal' + name);
+        btn.setAttribute('onclick', 'sendButton(this.id)');
+        ul.appendChild(btn)
+        
+        }
+        
+        let bt = document.createElement('button');
+        let bt1 = document.createElement('button');
+        let bt2 = document.createElement('button');
+        let bt3 = document.createElement('button');
+        
+        createBtn(bt, '4GB');
+        createBtn(bt1, '8GB');
+        createBtn(bt2, '16GB');
+        createBtn(bt3, '32GB');
+
+
+        chat.scrollTop = chat.scrollHeight;
+    }
+    else if(msg.includes('Which Product would you like to see?')){
+
+        let li = document.createElement('li');
+        li.innerHTML = msg;
+        if (voice() == true)
+            speak(li.innerText);
+        li.className = 'responder';
+        
+        ul.appendChild(li)
+
+        var createBtn = function(btn, name)
+        {
+        btn.className = 'chat-button';
+        btn.innerHTML = name;
+        btn.setAttribute('value', name); 
+        btn.setAttribute('id', 'btnVal' + name);
+        btn.setAttribute('onclick', 'sendButton(this.id)');
+        ul.appendChild(btn)
+        }
+        
+        let bt = document.createElement('button');
+        let bt1 = document.createElement('button');
+        let bt2 = document.createElement('button');
+        
+        createBtn(bt, 'laptop');
+        createBtn(bt1, 'desktop');
+        createBtn(bt2, 'workstation');
+
+        chat.scrollTop = chat.scrollHeight;
+    }
+}
+
+
 function createResponder(msg) {
-     
-    if(!ValidURL(msg)){
+    if(msg.includes('What processor do you need?') || msg.includes('How much memory do you need?') || msg.includes('Which Product would you like to see?')){
+        createButton(msg);
+    } 
+    else if(!ValidURL(msg)){
         
         var numberOfLineBreaks = (msg.match(/\n/g)||[]).length -1;
         var Msg = msg.split('\n');
@@ -83,13 +187,14 @@ function createResponder(msg) {
             if (voice() == true)
                 speak(li.innerText);
             li.className = 'responder';
+            $(li).attr('style', 'float:left');
             ul.appendChild(li)
             ul.appendChild(br)
             if(Msg.includes('is it ok for you?')){
                 let i = document.createElement('img');
                 i.className = 'responder';
                 i.setAttribute('src', 'xps.jpg');
-                i.setAttribute('style', 'width: 50%; height: 60%');
+                i.setAttribute('style', 'width: 50%; height: 50%; float:left');
                 ul.appendChild(i)
             }
             chat.scrollTop = chat.scrollHeight;
@@ -99,14 +204,23 @@ function createResponder(msg) {
     } else{
         let a = document.createElement('a');
         a.className = 'responder';
-        a.setAttribute('href', msg);
-        a.setAttribute('style', 'background-color: #84FF91;');
-        a.setAttribute('target', '_blank');
-        a.innerHTML = 'See Product';
+        $(a).attr('href', msg);
+        $(a).attr('style', 'background-color: #84FF91; float:left');
+        $(a).attr('target', '_blank');
+        $(a).html('See Product');
         ul.appendChild(a)
         chat.scrollTop = chat.scrollHeight;
     }
     
+}
+
+function sendButton(id) {
+    let message = document.getElementById(id).value;
+    if (message != '') {
+        createSender(message);
+        document.getElementById('typing').style.display = "inline";
+        respond(message);
+    }
 }
 
 function send() {

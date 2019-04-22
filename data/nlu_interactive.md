@@ -1,9 +1,10 @@
 ## intent:appraisal.thank_you
-- Thank you
+- Thank You
 
-## intent:confirmation.yes
-- yes
+## intent:greetings.hello
+- Hey
 
-## intent:inform_orderHistory
-- show my orders
-- [Nischal_Bhatt@Dell.com](email:nischal_bhatt@dell.com)
+## intent:inform_buy
+- I want a [laptop](system)
+- /inform_buy[{"processor": "i3"}](processor:i3)
+- /inform_buy[{"ram": "8 gb"}](ram:8 gb)

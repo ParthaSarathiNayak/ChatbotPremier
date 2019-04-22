@@ -1,6 +1,6 @@
 ## Generated Story -8637818249420468965
-* greetings.hello
-    - utter_greetings.hello
+* help_buy
+    - utter_show_product
 * inform_buy{"system": "laptop"}
     - slot{"system": "laptop"}
     - utter_ask_processor
@@ -19,8 +19,8 @@
 
 
 ## Generated Story -9186331802696009751
-* greetings.hello
-    - utter_greetings.hello
+* help_buy
+    - utter_show_product
 * inform_buy{"system": "desktop"}
     - slot{"system": "desktop"}
     - utter_ask_processor
@@ -55,6 +55,28 @@
 ## Generated Story 462705194636886500
 * greetings.hello
     - utter_greetings.hello
+* inform_buy{"system": "workstation"}
+    - slot{"system": "workstation"}
+    - utter_ask_processor
+* inform_buy{"ram": "8 gb"}
+    - slot{"ram": "8 gb"}
+    - utter_wrong_input
+* inform_buy{"processor": "i7"}
+    - slot{"processor": "i7"}
+    - utter_ask_ram
+* inform_buy{"ram": "16 gb"}
+    - slot{"ram": "16 gb"}
+    - action_search_product
+    - slot{"matches": "precision-m7510-workstationIntel\u00ae Core\u2122 i7-6820HQ (Quad Core 2.70GHz, 3.60GHz Turbo, 8MB 45W, w/Intel HD Graphics 530)16GB (2x8GB) 2133MHz DDR4 SDRAM, Non-ECC500GB 2.5 inch SATA 7200 rpm Hard Drive"}
+    - action_give_link
+    - slot{"prod_id": "XCTOMP751015USR"}
+    - action_suggest
+* greetings.nice_to_talk_to_you
+    - utter_greetings.nice_to_talk_to_you
+
+## Generated Story 462705194636886511
+* help_buy
+    - utter_show_product
 * inform_buy{"system": "workstation"}
     - slot{"system": "workstation"}
     - utter_ask_processor
